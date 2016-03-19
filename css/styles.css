@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+body {
+  background-image: url(https://raw.githubusercontent.com/mand0/images/master/moulin.png);
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 50px;
+}
+
+.containerr {
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+body h1 {
+  font-family: 'Lobster Two', cursive;
+  font-size: 100px;
+  font-weight: 700;
+  color: green;
+  display: inline;
+  /*font-weight: 300;*/
+  margin: auto;
+}
+
+body p {
+
+  font-size: 40px;
+  font-weight: bold;
+  color: #7f8c8d;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+
+body h2 {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  color: #c0392b;
+
+}
+
+.input-group {
+  margin: auto;
+  width: 400px;
+}
+
+.randomButton {
+  float: right;
+  margin-right: 450px;
+  margin-top: -130px;
+}
+
+.search-container {
+  margin: auto;
+  width: 60%;
+  /*background-color: white;*/
+}
+
+[class*="article-box-"] {
+  border: 3px solid #c0392b;
+  margin-top: 60px;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+[class*="article-box-"]:active,
+[class*="article-box-"]:hover {
+  border: 3px solid green;
+}
+
+[class*="article-box-0"] {
+  margin-top: 20px;
+}
+
+[class*="article-"] {
+  /*border: 3px solid blue;*/
+  /*margin-top: 40px;*/
+  font-size: 20px;
+}
+
+[class*="article-total-hits"] {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: yellow;
+}
+
+[class*="article-name"] {
+  color: #3498db;
+  display: inline-block;
+  /*margin-top: 20px;*/
+  font-size: 40px;
+}
+
+[class*="article-image-"] {
+  height: 200px;
+  width: auto;
+  float: right;
+}
+
+[class*="article-snippet-"] {
+  margin-top: 20px;
+  color: white;
+  text-align: left;
+}
+
+[class*="article-date-"] {
+  margin-top: 20px;
+  color: white;
+  text-align: left;
+}
+
+[class*="article-wordcount-"] {
+  margin-top: 20px;
+  color: white;
+  text-align: left;
+}
